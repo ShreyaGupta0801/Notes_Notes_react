@@ -1,0 +1,60 @@
+.homeWrapper {
+    height: 100%;
+    width: 100%;
+    background-image: url("../Resources/images/unsplash2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.heroText {
+    padding-top: 3rem;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-right: 5.2%;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.heroWrapper {
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    height: 200px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginButton {
+    margin-right: 2rem;
+}
+
+
+.center img {
+    object-fit: cover;
+    height: 100%;
+    align-items: center;
+}
+
+.center {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: transparent;
+    align-items: left;
+}
+
+.center>a {
+    text-decoration: none;
+}
+
